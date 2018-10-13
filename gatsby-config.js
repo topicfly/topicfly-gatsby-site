@@ -1,7 +1,5 @@
 module.exports = {
-	siteMetadata: {
-		title: 'Topicfly',
-	},
+	siteMetadata: require('./siteMetadata.config'),
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		{
